@@ -1,5 +1,0 @@
-2025-08-13 11:33:05.365 [info] updateURL https://api2.cursor.sh/updates/api/update/linux-x64/cursor/1.4.3/d13f215144e003baeec45a2a74b3ba76062ab49d591c5205ce24430f0ac95065/stable
-2025-08-13 11:33:05.366 [info] update#setState idle
-2025-08-13 11:33:35.369 [info] update#setState checking for updates
-2025-08-13 11:33:35.658 [info] update#setState idle
-2025-08-13 11:43:41.460 [info] Extension host with pid 7171 exited with code: 0, signal: unknown.
