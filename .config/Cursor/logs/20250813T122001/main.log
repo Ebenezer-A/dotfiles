@@ -1,0 +1,10 @@
+2025-08-13 12:20:02.210 [info] updateURL https://api2.cursor.sh/updates/api/update/linux-x64/cursor/1.4.3/d13f215144e003baeec45a2a74b3ba76062ab49d591c5205ce24430f0ac95065/stable
+2025-08-13 12:20:02.210 [info] update#setState idle
+2025-08-13 12:20:31.897 [info] update#setState checking for updates
+2025-08-13 12:21:09.436 [info] update#setState idle
+2025-08-13 12:27:19.469 [error] [UtilityProcess type: shared-process, pid: 60664]: crashed with code 2 and reason 'killed'
+2025-08-13 12:27:19.471 [error] [UtilityProcessWorker]: terminated unexpectedly with code 2, signal: unknown
+2025-08-13 12:27:19.471 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 60665]: crashed with code 2 and reason 'killed'
+2025-08-13 12:27:19.507 [info] Extension host with pid 60684 exited with code: 2, signal: unknown.
+2025-08-13 12:27:19.508 [error] [UtilityProcess id: 1, type: extensionHost, pid: 60684]: crashed with code 2 and reason 'killed'
+2025-08-13 12:27:19.702 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 62520]: crashed with code 15 and reason 'killed'

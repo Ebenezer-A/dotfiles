@@ -1,0 +1,21 @@
+00:00:00.296191 VirtualBox GUI VM Selector Window 7.1.12 r169651 linux.amd64 (Jul 14 2025 16:11:24) release log
+00:00:00.296193 Log opened 2025-08-15T08:17:09.221364000Z
+00:00:00.296193 Build Type: release
+00:00:00.296197 OS Product: Linux
+00:00:00.296198 OS Release: 6.8.0-65-generic
+00:00:00.296199 OS Version: #68~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Jul 15 18:06:34 UTC 2
+00:00:00.296222 DMI Product Name: HP EliteBook 840 G5
+00:00:00.296229 DMI Product Version: 
+00:00:00.296236 Firmware type: UEFI
+00:00:00.296621 Secure Boot: Enabled
+00:00:00.296656 Host RAM: 15841MB (15.4GB) total, 11125MB (10.8GB) available
+00:00:00.296660 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.296660 Process ID: 7338
+00:00:00.296661 Package type: LINUX_64BITS_UBUNTU_22_04
+00:00:00.296681 Qt version: 6.5.3
+00:00:00.297354 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.323490 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.323510 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.797992 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 70x27 x 1850x1053
+00:00:02.912624 GUI: UICommon: Handling aboutToQuit request..
+00:00:03.832236 GUI: UICommon: aboutToQuit request handled!

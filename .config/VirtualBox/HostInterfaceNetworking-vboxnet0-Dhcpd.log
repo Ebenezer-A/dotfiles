@@ -1,0 +1,23 @@
+00:00:00.001846 VirtualBox DHCP Server 7.1.12 r169651 linux.amd64 (Jul 14 2025 16:10:47) release log
+00:00:00.001849 Log opened 2025-08-25T05:45:52.729941000Z
+00:00:00.001850 Build Type: release
+00:00:00.001853 OS Product: Linux
+00:00:00.001856 OS Release: 6.8.0-65-generic
+00:00:00.001859 OS Version: #68~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Jul 15 18:06:34 UTC 2
+00:00:00.001891 DMI Product Name: HP EliteBook 840 G5
+00:00:00.001910 DMI Product Version: 
+00:00:00.001941 Firmware type: UEFI
+00:00:00.002472 Secure Boot: Enabled
+00:00:00.002527 Host RAM: 15841MB (15.4GB) total, 13744MB (13.4GB) available
+00:00:00.002531 Executable: /usr/lib/virtualbox/VBoxNetDHCP
+00:00:00.002532 Process ID: 7210
+00:00:00.002533 Package type: LINUX_64BITS_UBUNTU_22_04
+00:00:00.002556 --config:  HostInterfaceNetworking-vboxnet0
+00:00:00.002560 --comment: HostInterfaceNetworking-vboxnet0
+00:00:00.002765 IP address:   192.168.56.100/24
+00:00:00.002774 Address pool: 192.168.56.101 - 192.168.56.254
+00:00:00.002813 MAC address is not specified: will use generated MAC 08:00:27:8e:78:08
+00:00:00.002820 Db::i_enterFixedAddressAssignment: 08:00:27:8e:78:08: 192.168.56.100
+00:00:00.002829 loading leases from /home/orbit/.config/VirtualBox/HostInterfaceNetworking-vboxnet0-Dhcpd.leases
+00:00:00.003287 Runtime error opening '/home/orbit/.config/VirtualBox/HostInterfaceNetworking-vboxnet0-Dhcpd.leases' for reading VERR_FILE_NOT_FOUND (File not found.)
+00:00:00.003328 SUP: Opened VMMR0.r0 (/usr/lib/virtualbox/VMMR0.r0) at 0xXXXXXXXXXXXXXXXX.

@@ -1,0 +1,6 @@
+DevOps
+autoremove
+cd
+lsb
+sudo
+checksum_v1 = 404a2415484b542f8735e65370807bea
