@@ -71,19 +71,22 @@ ZSH_THEME="cloud"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-	gitfast
-	# zsh-autosuggestions 
-	 zsh-syntax-highlighting 
-	 fast-syntax-highlighting 
-	zsh-autocomplete
+	git	
+	zsh-autosuggestions 
+	zsh-syntax-highlighting 
+	docker
+	aliases
+	kubectl
+	# fast-syntax-highlighting 
+	# zsh-autocomplete
 )
 
-bindkey -M menuselect '^M' .accept-line
+# bindkey -M menuselect '^M' .accept-line
 
-zstyle ':autocomplete:*' delay 0.2  # seconds (float)
+#zstyle ':autocomplete:*' delay 0.2  # seconds (float)
 
-alias alert='cd $HOME/Documents/Deployments/Alert'
-alias peter='cd $HOME/Documents/Deployments/St.Peter'
+alias alert='cd $HOME/Documents/Deployment/Alert'
+alias peter='cd $HOME/Documents/Deployment/St.Peter'
 
 source $ZSH/oh-my-zsh.sh
 
@@ -121,5 +124,5 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+ export PATH="$HOME/.rbenv/bin:$PATH"
+ eval "$(rbenv init -)"
