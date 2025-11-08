@@ -20,10 +20,24 @@
 # # The config file consists of simple key-value pairs,
 # # separated by equals signs.
 # font-family = Iosevka
+font-size = 12
 # window-padding-x = 2
+window-decoration = none
+# gtk-titlebar = false
+gtk-tabs-location = hidden
 
-theme = noctis-azureus 
+theme = github-dark
 
+keybind = shift+ctrl+h=new_split:left
+keybind = shift+ctrl+j=new_split:down
+keybind = shift+ctrl+k=new_split:up
+keybind = shift+ctrl+l=new_split:right
+
+keybind = ctrl+alt+k=goto_split:up
+keybind = ctrl+alt+j=goto_split:down
+keybind = ctrl+alt+l=goto_split:right
+keybind = ctrl+alt+h=goto_split:left
+keybind = alt+w=close_surface
 # # Spacing around the equals sign does not matter.
 # # All of these are identical:
 # key=value

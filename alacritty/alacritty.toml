@@ -1,0 +1,8 @@
+
+[general]
+import = [
+  "/home/orbit/.nvm/versions/node/v22.18.0/lib/node_modules/alacritty-themes/themes/github_dark_default.toml"
+]
+
+[font]
+size = 12

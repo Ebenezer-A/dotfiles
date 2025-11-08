@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="cloud"
+ZSH_THEME="af-magic"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -71,22 +71,12 @@ ZSH_THEME="cloud"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-	git	
-	zsh-autosuggestions 
-	zsh-syntax-highlighting 
+	git
 	docker
-	aliases
 	kubectl
-	# fast-syntax-highlighting 
-	# zsh-autocomplete
-)
-
-# bindkey -M menuselect '^M' .accept-line
-
-#zstyle ':autocomplete:*' delay 0.2  # seconds (float)
-
-alias alert='cd $HOME/Documents/Deployment/Alert'
-alias peter='cd $HOME/Documents/Deployment/St.Peter'
+	aliases
+	zsh-syntax-highlighting
+	zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -118,11 +108,35 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#
+
+# CUSTOM ALIASES
+alias cd="z"
+
+alias lzd='lazydocker'
+
+alias alert='cd $HOME/Documents/Deployment/Alert/'
+alias peter='cd $HOME/Documents/Deployment/St.Peter/'
+
+export PATH="$PATH:$HOME/go/bin"
+
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
+
+eval "$(zoxide init zsh)"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
- export PATH="$HOME/.rbenv/bin:$PATH"
- eval "$(rbenv init -)"
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+. "$HOME/.cargo/env"
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/home/orbit/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+
